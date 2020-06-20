@@ -6,6 +6,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /* outline: 1px solid red; */
 }
 
 body {
@@ -30,11 +31,11 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 950px;
+  max-width: 900px;
   margin: 8rem 1.5rem;
 }
 
-.controls {
+.controls-card {
   background: hsl(228, 56%, 26%);
   padding: 2.5rem;
   border-radius: 0.5rem;
@@ -63,7 +64,7 @@ body {
   cursor: pointer;
 }
 
-.stats {
+.data-card {
   background: hsl(228, 56%, 26%);
   color: hsl(243, 100%, 93%);
   padding: 2rem;
@@ -71,7 +72,7 @@ body {
   position: relative;
 }
 
-.stats-title {
+.data-title {
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -123,13 +124,14 @@ body {
   left: 25%;
 }
 
-.gigs {
+.notification-gbs {
   margin-right: 0.5rem;
 }
 
-.text-grey-blue {
+.notification-text {
   color: hsl(229, 7%, 55%);
   font-size: 0.75rem;
+  letter-spacing: 0.025rem;
 }
 
 .attribution {
@@ -157,16 +159,17 @@ body {
     align-items: center;
   }
 
-  .controls {
+  .controls-card {
     flex: 1;
     margin-right: 2rem;
   }
 
-  .stats {
+  .data-card {
     flex: 2;
+    margin-top: 2rem;
   }
 
-  .stats-title {
+  .data-title {
     text-align: left;
   }
 
@@ -174,7 +177,7 @@ body {
     display: inline-flex;
     top: -3rem;
     right: 2rem;
-    max-width: 200px;
+    max-width: 180px;
     margin-left: auto;
   }
 
