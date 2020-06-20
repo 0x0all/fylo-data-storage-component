@@ -31,7 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 900px;
+  max-width: 936px;
   margin: 8rem 1.5rem;
 }
 
@@ -78,7 +78,7 @@ body {
 }
 
 .progress-bar {
-  background: hsl(229, 57%, 11%);
+  background: hsl(230, 55%, 18%);
   border-radius: 0.5rem;
   padding: 2px;
   margin-bottom: 0.5rem;
@@ -161,12 +161,12 @@ body {
 
   .controls-card {
     flex: 1;
-    margin-right: 2rem;
   }
 
   .data-card {
     flex: 2;
     margin-top: 2rem;
+    margin-left: 2rem;
   }
 
   .data-title {
